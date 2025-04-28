@@ -4,6 +4,10 @@ public class C05Integer {
     public static void main(String[] args) {
         // 정수형
         //byte(1byte, 8bits)
+        //0000 0000 ~ 1111 1111
+        //맨 앞자리가 0이면 양수
+        //앞자리가 1이면 음수
+
         byte a; // a는 바이트 타입
         a = 127; //최대값
         System.out.println("a=" + a);
