@@ -139,16 +139,20 @@ public class C20250428 {
 //
 //        }
 
-        int sum = 0;
-        for (int i = 1; i < 100; i++) {
-            if (i % 3 == 0 || i % 5 == 0) {
-                sum += i;
-                if (sum < 2000) {
-                    System.out.println(sum);
-                } else {
-                    System.out.println("합이 2000을 넘었습니다");
-                }
-            }
-        }
+//        int sum = 0;
+//        for (int i = 1; i < 100; i++) {
+//            if (i % 3 == 0 || i % 5 == 0) {
+//                sum += i;
+//                if (sum < 2000) {
+//                    System.out.println(sum);
+//                } else {
+//                    System.out.println("합이 2000을 넘었습니다");
+//                }
+//            }
+//        }
+
+//        int a;
+//        a = 534 % 30;
+//        System.out.println(a);
     }
 }
