@@ -1,4 +1,4 @@
-package ch02.lecture;
+package ch03.lecture;
 
 public class C20250429 {
     public static void main(String[] args) {
@@ -31,12 +31,20 @@ public class C20250429 {
 //            System.out.println(b);
 //        }
 
-        for (int i = 1; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                System.out.println(i + "*" + j + "=" + (i * j)); //구구단 출력
-            }
+//        for (int i = 1; i < 10; i++) {
+//            for (int j = 1; j < 10; j++) {
+//                System.out.println(i + "*" + j + "=" + (i * j)); //구구단 출력
+//            }
+//
+//        }
+//        System.out.println();
 
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (i < j && (i + 1) * (j + 1) % 3 == 0 && (i + 1) * (j + 1) % 5 == 0) {
+                    System.out.println((i + 1) + "*" + (j + 1) + "=" + (i + 1) * (j + 1));
+                }
+            }
         }
-        System.out.println();
     }
 }
