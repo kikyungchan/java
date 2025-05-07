@@ -1,4 +1,4 @@
-package leetcode.p1480;
+package ch05.leetcode.p1480;
 
 class Solution {
     public int[] runningSum(int[] nums) {

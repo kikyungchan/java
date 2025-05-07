@@ -1,4 +1,4 @@
-package leetcode.p867;
+package ch05.leetcode.p867;
 
 class Solution {
     public int[][] transpose(int[][] matrix) {
