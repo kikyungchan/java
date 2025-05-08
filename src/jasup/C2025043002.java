@@ -1,4 +1,4 @@
-package ch04.lecture;
+package jasup;
 
 import java.util.Scanner;
 

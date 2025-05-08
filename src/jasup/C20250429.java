@@ -1,4 +1,4 @@
-package ch03.lecture;
+package jasup;
 
 public class C20250429 {
     public static void main(String[] args) {

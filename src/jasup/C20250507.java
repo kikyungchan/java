@@ -1,4 +1,4 @@
-package ch05.lecture;
+package jasup;
 
 import java.util.Arrays;
 
