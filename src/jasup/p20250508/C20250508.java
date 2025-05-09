@@ -1,6 +1,4 @@
-package jasup;
-
-import ch06.sec04.Student;
+package jasup.p20250508;
 
 public class C20250508 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package jasup;
+package jasup.p20250430;
 
 import java.util.Scanner;
 

@@ -10,7 +10,7 @@ class MyClass07 {
     boolean married;
 
     public MyClass07() {
-//        this.name = "홍길도";
+//        this.name = "홍길동";
 //        this.age = 1;
 //        this.email = "없음";
 //        this.married = false;
