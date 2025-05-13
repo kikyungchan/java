@@ -1,4 +1,4 @@
-package jasup.p02050512;
+package jasup.p20250512;
 
 public class Main01 {
     public static void main(String[] args) {
