@@ -11,7 +11,6 @@ public class Transport {
         for (int i = 0; i < v.length; i++) {
             Vehicle a = v[i];
             c.control(a);
-            System.out.println("----------");
         }
     }
 }
