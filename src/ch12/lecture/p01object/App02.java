@@ -7,10 +7,10 @@ public class App02 {
 
         b1.setTitle("ㅇ;거시 자바다");
         b2.setTitle("프로 깃");
-        //참좃값이 같읒ㄴ가
+        //참조값이 같은가?
         System.out.println(b1 == b2);
 
-        //equals 메쏘드 :: 네용이 같은가
+        //equals 메쏘드 :: 내용이 같은가
         System.out.println(b1.equals(b2));
 
     }

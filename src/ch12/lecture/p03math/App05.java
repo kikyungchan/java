@@ -10,10 +10,10 @@ public class App05 {
         Scanner scanner = new Scanner(System.in);
         // 1~10 숫자 3개 맞추는 게임?
         // 1.사용자에게 3개 숫자 입력 받고
-        System.out.println("3개의 숫자를 ,로 구분해서 입력해 주세요");
+        System.out.println("3개의 숫자를 스페이스로 구분해서 입력해 주세요");
         System.out.print("입력>");
         String line = scanner.nextLine();
-        String[] numbers = line.split(",");
+        String[] numbers = line.split(" ");
         int[] num = {
                 Integer.parseInt(numbers[0]),
                 Integer.parseInt(numbers[1]),
