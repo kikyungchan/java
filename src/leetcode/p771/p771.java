@@ -1,4 +1,4 @@
-package ch05.leetcode.p771;
+package leetcode.p771;
 
 class Solution {
     public int numJewelsInStones(String jewels, String stones) {

@@ -1,4 +1,4 @@
-package ch05.leetcode.p1572;
+package leetcode.p1572;
 
 class Solution {
     public int diagonalSum(int[][] mat) {

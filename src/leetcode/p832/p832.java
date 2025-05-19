@@ -1,4 +1,4 @@
-package ch05.leetcode.p832;
+package leetcode.p832;
 
 class Solution {
     public int[][] flipAndInvertImage(int[][] image) {

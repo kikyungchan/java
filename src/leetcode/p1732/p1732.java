@@ -1,4 +1,4 @@
-package ch05.leetcode.p1732;
+package leetcode.p1732;
 
 class Solution {
     public int largestAltitude(int[] gain) {
