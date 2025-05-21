@@ -23,8 +23,8 @@ public class App02 {
 
         // enhanced for
         System.out.println("-----enhanced for-----");
-        for (String item : list) {
-            System.out.println(item);
+        for (String n : list) {
+            System.out.println(n);
 
         }
 

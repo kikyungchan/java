@@ -30,8 +30,11 @@ public class App05 {
         System.out.println("list3 = " + list3);
 
         List<List<String>> list4 = list3;
-
+        System.out.println("############################");
+        List<String> strings = list4.get(0);
+        System.out.println("strings = " + strings);
         list4.get(0).set(0, "hola");
+        System.out.println("############################");
         System.out.println("list4 = " + list4);
         System.out.println("list3 = " + list3);
 

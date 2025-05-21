@@ -18,17 +18,17 @@ public class App06 {
 
         String s = l1.get(0).get(0);
 
-        System.out.println("l1 = " + l1);
-        System.out.println("s = " + s);
+        System.out.println("l1 = " + l1);//[hello,java][hi,python]
+        System.out.println("s = " + s);//hello
 
         List<List<String>> l2 = new ArrayList<>();
-        l2.add(l1.get(0));
-        l2.add(l1.get(1));
+        l2.add(l1.get(0));//[hello,java]
+        l2.add(l1.get(1));//[hi,python]
         System.out.println("l2 = " + l2);
 
-        l2.get(0).set(1, "react");
+        l2.get(0).set(1, "react");//[hello,react][hi,python]
         System.out.println("l2 = " + l2);
-        System.out.println("l1 = " + l1);
+        System.out.println("l1 = " + l1);//[hello,react][hi,python]
 
 
         r2.set(0, "안녕");
