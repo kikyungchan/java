@@ -1,0 +1,12 @@
+package 프로그래머스.코딩기초문제.x사이의개수;
+
+class Solution {
+    public int[] solution(String myString) {
+        String[] parts = myString.split("x", -1);
+        int[] answer = new int[parts.length];
+        for (int i = 0; i < parts.length; i++) {
+            answer[i] = parts[i].length();
+        }
+        return answer;
+    }
+}
