@@ -24,12 +24,12 @@ public class C19For {
             }
         }
         System.out.println("b = " + b);
-        for (int i = 0; i < k; i++) {
-            for (int j = 0; j < my_string.length(); j++) {
-                char c = my_string.charAt(i);
-                answer += c;
-            }
-        }
+//        for (int i = 0; i < k; i++) {
+//            for (int j = 0; j < my_string.length(); j++) {
+//                char c = my_string.charAt(i);
+//                answer += c;
+//            }
+//        }
 
         //a 를 k번 반복 a*k?
 
